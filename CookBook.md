@@ -3,12 +3,12 @@
 This is the code book that describes the variables, the data, and any transformations or work that is performed to clean up the data.
 
 ## 1. Original Dataset
-*  Abstract:
+*  **Abstract:**
 Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
-* Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* **Source:** https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-* Full Description of dataset: 
+* **Full Description of dataset:** 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## 2. Data Set Information
