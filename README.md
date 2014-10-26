@@ -18,13 +18,13 @@ Refer to [tidy.txt](https://github.com/csingeu/GettingAndCleaningDataCourseProje
 
 ## 5. Instructions
 * Download and unzip [source data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-* Copy "UCI HAR Dataset" folder (including subfolders & files) to current working directory
+* Copy **UCI HAR Dataset** folder (including subfolders & files) to current working directory
 * Download [run_analysis.R](https://github.com/csingeu/GettingAndCleaningDataCourseProject/blob/master/run_analysis.R) script into current working directory.
 * Execute run_analysis.R script by typing:
 	````
 	source("run_analysis.R")
 	````
-* The required output file will be named "tidy.txt" in the current working directory.
+* The required output file will be named **tidy.txt** in the current working directory.
 	
 ## 6. System Information
 * Instructions and script were tested OK on Windows 7 (32-bit) / RStudio 0.98.1049 / R version 3.1.1
