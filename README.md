@@ -34,7 +34,9 @@ Refer to [tidy.txt](https://github.com/csingeu/GettingAndCleaningDataCourseProje
 * The required output file will be named **tidy.txt** in the current working directory.
 	
 ## 6. System Information
-* Instructions and script were tested OK on Windows 7 (32-bit) / RStudio 0.98.1049 / R version 3.1.1
+* Instructions and script were tested OK on 
+    * Windows 7 (32-bit) / RStudio 0.98.1049 / R version 3.1.1
+    * Mac OS X Yosemite v10.10 / RStudio 0.98.983 / R version 3.1.1
 * Should also work on other equivalent system configurations with R version 3.1.1 
 
 ## 7. Dependencies
