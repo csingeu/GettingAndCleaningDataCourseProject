@@ -22,12 +22,19 @@
 # Clean up workspace
 rm(list=ls())
 
-# Check is dplyr library is installed and loaded
+# Check if dplyr library is installed and loaded
 if (!require("dplyr")) {
         install.packages("dplyr")
 }
 
 require("dplyr")
+
+# Check if data.table library is installed and loaded
+if (!require("data.table")) {
+        install.packages("data.table")
+}
+
+require("data.table")
 
 # Check if "UCI HAR Dataset" subfolder is found, else stop execution
 if (file.exists("./UCI HAR Dataset")) {
