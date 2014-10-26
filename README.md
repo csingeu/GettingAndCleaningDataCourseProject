@@ -13,7 +13,7 @@ Refer to [tidy.txt](https://github.com/csingeu/GettingAndCleaningDataCourseProje
 ## 4. Repo Contents: 
 * **README.md** The README file for this repo. 
 * **[CodeBook.md](https://github.com/csingeu/GettingAndCleaningDataCourseProject/blob/master/CookBook.md)** The code book that describes the variables, the data, and any transformations or work that is performed to clean up the data
-* **[run_analysis.R](https://github.com/csingeu/GettingAndCleaningDataCourseProject/blob/master/run_analysis.R) ** The R script contains the steps to process the data and generate the required tidy dataset for submission. 
+* **[run_analysis.R](https://github.com/csingeu/GettingAndCleaningDataCourseProject/blob/master/run_analysis.R)** The R script contains the steps to process the data and generate the required tidy dataset for submission. 
 * **[tidy.txt](https://github.com/csingeu/GettingAndCleaningDataCourseProject/blob/master/tidy.txt)** The text file contains the required tidy dataset for submission.  
 
 ## 5. Instructions
