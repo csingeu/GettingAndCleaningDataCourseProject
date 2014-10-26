@@ -8,7 +8,8 @@
 #    has been downloaded and unzipped into the "UCI HAR Dataset" subfolder of the working directory.
 #
 # Description:
-# This script will does the following: 
+# This script will do the following: 
+# 0. Cleans up workspace, checks dependencies and whether "UCI HAR Dataset" subfolder exists
 # 1. Merges the training and test sets to create one data set.
 # 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 # 3. Uses descriptive activity names to name the activities in the data set
