@@ -19,6 +19,13 @@ Refer to [tidy.txt](https://github.com/csingeu/GettingAndCleaningDataCourseProje
 ## 5. Instructions
 * Download and unzip [source data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 * Copy **UCI HAR Dataset** folder (including subfolders & files) to current working directory
+* The following folders/files should be found inside **UCI HAR Dataset** folder:
+    * **test** folder
+    * **train** folder
+    * README.txt
+    * activity_labels.txt
+    * features.txt
+    * features_info.txt
 * Download [run_analysis.R](https://github.com/csingeu/GettingAndCleaningDataCourseProject/blob/master/run_analysis.R) script into current working directory.
 * Execute run_analysis.R script by typing:
 	````
