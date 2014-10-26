@@ -65,12 +65,30 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 
 ## 5. Transformation Steps
 
-### Step 1: Merges the training and the test sets to create one data set
+### Step 0: Clean up environment and check dependencies
+- Clear environment objects
+- Check if **dplyr** package is installed and loaded; if else, proceed to install and loaded
+- Check if **UCI HAR Dataset** subfolder is present in current working directory; else stop script execution
 
+### Step 1: Merges the training and the test sets to create one data set
+- Import all datasets
+- Assign column names
+- Merge training set
+- Merge test set
+- Combine into one data set
+ 
 ### Step 2: Extracts only the measurements on the mean and standard deviation for each measurement
+- Create a logicalVector that contains TRUE values for the subjectId, activityId, mean() and std()
+-- using **grepl** for pattern matching
+- Subset complete dataset based on logicalVector to keep required columns
 
 ### Step 3: Uses descriptive activity names to name the activities in the data set
+- Merge with activityLabels, using **activityId** as key
 
 ### Step 4: Appropriately labels the data set with descriptive variable names
+- Replace certain letter/word/phrase to clean up labels
 
 ### Step 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
+- Summarize, using **aggregate** function 
+- **Arrange** (from **dplyr** package) by activityId, subjectId
+- Write table to **tidy.txt** in current working directory
