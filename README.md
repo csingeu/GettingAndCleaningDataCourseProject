@@ -38,4 +38,4 @@ Refer to [tidy.txt](https://github.com/csingeu/GettingAndCleaningDataCourseProje
 * Should also work on other equivalent system configurations with R version 3.1.1 
 
 ## 7. Dependencies
-* Requires **dplyr** package
+* Requires **dplyr** & **data.table** packages
